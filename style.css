@@ -387,6 +387,10 @@ a:hover {
     float: none;
     margin: 10px auto 0;
   }
+
+  .size {
+    width: 320px;
+  }
 }
 
 .nav > li > .dropdown a {
@@ -677,6 +681,11 @@ p {
   margin: auto auto auto auto;
 }
 
+.tight-width-espace {
+  max-width: 600px;
+  margin: auto auto auto auto;
+}
+
 .h1 {
   font-size: 20px;
   font-family: "Roboto", sans-serif;
@@ -861,20 +870,11 @@ h4 {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  }
+
   .bloc-group,
   .bloc-group .bloc {
     display: block;
     width: 100%;
-  }
-  .bloc-fill-screen .fill-bloc-top-edge,
-  .bloc-fill-screen .fill-bloc-bottom-edge {
-    padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
   }
 }
 
@@ -891,9 +891,19 @@ h4 {
   h6,
   p,
   #disqus_thread {
-    padding-left: 10px !important;
-    padding-right: 10px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
   }
+
+  .tight-width-whitespace {
+    width: 320px;
+  }
+
+  .padding {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
   .b-parallax {
     background-attachment: scroll;
   }
@@ -1000,7 +1010,7 @@ h4 {
     margin-top: 30px;
   }
   form {
-    padding: 5px;
+    padding: 20px;
   }
   .close-lightbox {
     display: inline-block;
