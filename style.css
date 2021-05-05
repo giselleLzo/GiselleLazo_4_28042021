@@ -1025,6 +1025,11 @@ h4 {
     width: 180px;
     height: 320px;
   }
+
+  .col-sm-3 {
+    width: 25%;
+    float: left;
+  }
 }
 
 @media (max-width: 400px) {
