@@ -672,7 +672,7 @@ p {
 }
 
 .p-style {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -810,9 +810,9 @@ h4 {
   color: #c27956 !important;
 }
 
-.icon-dark-slate-blue {
-  color: #364577 !important;
-  border-color: #364577 !important;
+.icon-dark-color-primary {
+  color: #c24e4e !important;
+  border-color: #c24e4e !important;
 }
 
 .bg-banniere {
@@ -889,19 +889,53 @@ h4 {
   h4,
   h5,
   h6,
-  p,
   #disqus_thread {
-    padding-left: 30px !important;
-    padding-right: 30px !important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+
+  h2 {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  p {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .p-style {
+    font-size: 19px;
+  }
+
+  .padd-off {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .descriptive {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .col-sm-12 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
   }
 
   .tight-width-whitespace {
     width: 320px;
   }
 
-  .padding {
-    padding-left: 30px;
-    padding-right: 30px;
+  .quote {
+    padding-left: 40px;
+    padding-right: 40px;
+    font-style: italic;
+  }
+
+  .sign {
+    font-style: normal;
+    font-weight: 400;
   }
 
   .b-parallax {
