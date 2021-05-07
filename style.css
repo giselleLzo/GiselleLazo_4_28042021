@@ -353,6 +353,21 @@ a:hover {
   font-weight: 600;
 }
 
+.quote {
+  padding-top: 30px;
+  font-style: italic;
+}
+
+.sign {
+  font-style: normal;
+  font-weight: 400;
+}
+
+.padd-sides {
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
 @media (min-width: 768px) {
   .site-navigation {
     position: absolute;
@@ -777,7 +792,7 @@ h4 {
 
 .portfolio-row {
   margin-bottom: 44px;
-  margin-top: 50px;
+  margin-top: 80px;
 }
 
 .avatar {
@@ -865,6 +880,11 @@ h4 {
   .bloc-tile-4.full-width-bloc .container {
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .quote {
+    padding-left: 80px;
+    padding-right: 80px;
   }
 }
 
@@ -967,6 +987,15 @@ h4 {
   .sign {
     font-style: normal;
     font-weight: 400;
+  }
+
+  .padd-p-side {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .portfolio-row {
+    margin-top: 50px;
   }
 
   .b-parallax {
