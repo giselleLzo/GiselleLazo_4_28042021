@@ -866,11 +866,6 @@ h4 {
     padding-left: 0;
     padding-right: 0;
   }
-
-  .row {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
 }
 
 @media (max-width: 992px) and (min-width: 768px) {
