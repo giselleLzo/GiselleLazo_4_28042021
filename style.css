@@ -15,8 +15,8 @@ button {
 }
 
 a:hover {
-  text-decoration: none;
   cursor: pointer;
+  color: #bc4b4b;
 }
 
 #page-loading-blocs-notifaction {
@@ -316,7 +316,7 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-  background: transparent;
+  color: #bc4b4b;
 }
 
 .navbar-toggle {
@@ -326,11 +326,16 @@ a:hover {
 
 .navbar-toggle:hover {
   background: transparent !important;
+  color: #bc4b4b;
 }
 
 .navbar-toggle .icon-bar {
   background-color: rgba(0, 0, 0, 0.5);
   width: 26px;
+}
+
+.navbar-toggle .icon-bar:focus {
+  color: #bc4b4b;
 }
 
 .nav-invert .navbar .nav {
@@ -358,7 +363,7 @@ a:hover {
   }
   .nav > li .dropdown-menu a,
   .nav > li .dropdown-menu a:hover {
-    color: #484848;
+    color: #bc4b4b;
   }
   .nav-invert .site-navigation {
     left: 0;
@@ -397,6 +402,10 @@ a:hover {
   background: none !important;
   display: block;
   padding: 14px 15px;
+}
+
+.nav > li > .dropdown a:focus {
+  color: #bc4b4b;
 }
 
 nav .caret {
@@ -446,7 +455,7 @@ nav .caret {
 .btn-d,
 .btn-d:hover,
 .btn-d:focus {
-  color: #fff;
+  color: #bc4b4b;
   background: rgba(0, 0, 0, 0.3);
 }
 
@@ -510,6 +519,14 @@ button {
   opacity: 0;
   z-index: 500;
   transition: all 0.3s ease-in-out;
+}
+
+.scrollToTop:hover {
+  border: 2px #bc4b4b solid;
+}
+
+.scrollToTop:focus {
+  border: 1px #ccc solid;
 }
 
 .scrollToTop span {
@@ -643,6 +660,15 @@ a {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   color: #575757 !important;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #bc4b4b;
+}
+
+a:focus {
+  border: 1px #ccc solid;
 }
 
 .container {
@@ -792,6 +818,11 @@ h4 {
 .btn-color-primary:hover {
   background: #bc4b4b !important;
   color: #ffffff !important;
+  box-shadow: 1px 1px 3px rgb(59, 59, 59);
+}
+
+.btn-color-primary:focus {
+  border: 1px #ccc solid;
 }
 
 .ltc-white {
@@ -966,6 +997,11 @@ h4 {
   }
   .nav > li:hover {
     background: rgba(0, 0, 0, 0.08);
+    color: #bc4b4b;
+  }
+
+  .nav > li:focus {
+    color: #bc4b4b;
   }
   .dropdown .dropdown a .caret {
     float: none;
@@ -979,7 +1015,7 @@ h4 {
     background: rgba(0, 0, 0, 0.8);
   }
   #hero-bloc .navbar .nav a {
-    color: rgba(255, 255, 255, 0.6);
+    color: #bc4b4b;
   }
   .hero {
     padding: 50px 0;
@@ -994,6 +1030,7 @@ h4 {
     -webkit-box-shadow: none;
     box-shadow: none;
   }
+
   .navbar-brand img {
     max-height: 40px;
     width: auto;
