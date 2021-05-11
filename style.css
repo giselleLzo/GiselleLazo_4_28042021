@@ -945,6 +945,10 @@ h4 {
     padding-right: 40px !important;
   }
 
+  .navbar-toggle:focus {
+    background-color: #ccc;
+  }
+
   h2 {
     margin-left: 40px;
     margin-right: 40px;
