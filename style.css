@@ -950,6 +950,14 @@ h4 {
     margin-right: 40px;
   }
 
+  .bg-banniere {
+    background-image: url("img/la-chouette-agence-banniere-sm.jpg");
+  }
+
+  .bg-presentation {
+    background-image: url("img/image-de-presentation-sm.jpg");
+  }
+
   p {
     padding-left: 15px;
     padding-right: 15px;
