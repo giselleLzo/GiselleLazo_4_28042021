@@ -17,7 +17,6 @@
       content="La Chouette Agence est une agence de webdesign à Lyon experte dans la création de sites internet, laissez nous vous aider à devenir attractifs et visibles sur internet."
     />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
-
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap"
@@ -28,11 +27,8 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
     <link rel="stylesheet" type="text/css" href="./css/et-line.min.css" />
-
-    <!-- Analytics -->
-
-    <!-- Analytics END -->
   </head>
+
   <body>
     <!-- Principal conteneur -->
     <div class="page-container">
@@ -45,6 +41,7 @@
                 ><img
                   src="img/la-chouette-agence.png"
                   alt="Logotype La Chouette Agence"
+                  title="Logotype La Chouette Agence"
                   width="214"
                   height="40"
               /></a>
@@ -68,10 +65,14 @@
             >
               <ul class="site-navigation nav navbar-nav" role="menu">
                 <li role="menuitem">
-                  <a href="index.html">Accueil</a>
+                  <a href="index.html" title="Accueil" aria-current="page"
+                    >Accueil</a
+                  >
                 </li>
                 <li role="menuitem">
-                  <a href="contact.html">Contact</a>
+                  <a href="contact.html" title="Contact" aria-current="page"
+                    >Contact</a
+                  >
                 </li>
               </ul>
             </div>
@@ -155,6 +156,7 @@
                     cta-hero
                     btn-color-primary
                   "
+                  title="Envoyer"
                   type="submit"
                 >
                   Envoyer
@@ -165,7 +167,10 @@
               <h2>Venez nous visiter !</h2>
               <p>
                 2 place Sathonay 69001 Lyon<br />Ouvert de 9h à 18h, du lundi au
-                vendredi<br /><a href="mailto:gisellelsz@gmail.com">
+                vendredi<br /><a
+                  href="mailto:gisellelsz@gmail.com"
+                  title="contact@lachouetteagence.com"
+                >
                   contact@lachouetteagence.com</a
                 >
               </p>
@@ -197,6 +202,7 @@
                       class="social"
                       role="button"
                       aria-label="Twitter"
+                      title="Twitter"
                       ><span class="fa fa-twitter icon-md"></span
                     ></a>
                   </div>
@@ -210,6 +216,7 @@
                       class="social"
                       role="button"
                       aria-label="Facebook"
+                      title="Facebook"
                       ><span class="fa fa-facebook icon-md"></span
                     ></a>
                   </div>
@@ -223,6 +230,7 @@
                       class="social"
                       role="button"
                       aria-label="Dribbble"
+                      title="Dribbble"
                       ><span class="fa fa-dribbble icon-md"></span
                     ></a>
                   </div>
@@ -236,6 +244,7 @@
                       class="social"
                       role="button"
                       aria-label="Instagram"
+                      title="Instagram"
                       ><span class="fa fa-instagram icon-md"></span
                     ></a>
                   </div>
